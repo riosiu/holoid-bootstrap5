@@ -26,7 +26,7 @@ section{
   min-height: 300px;
 }
 .carousel-caption {
-  bottom: 220px;
+  bottom: 260px;
   z-index: 2;
 }
 .carousel-caption h5 {
@@ -188,10 +188,38 @@ section{
 
 /* Talent CSS */
 
+/* about us */
+
+
+social-link {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+  border-radius: 50%;
+  transition: all 0.3s;
+  font-size: 0.9rem;
+}
+
+.social-link:hover,
+.social-link:focus {
+  background: #ddd;
+  text-decoration: none;
+  color: #555;
+}
+
+
+
 
 
 /* Merchendise */
 
+body{
+  background-image: url(../img/fixed_bg.jpg);
+}
 
 .box {
 	margin: 140px auto;
@@ -258,11 +286,29 @@ section{
 
 /* Merchendise */
 
+.header-etalase::before{
+  content: "";
+    height: 15px;
+    flex-grow: 1;
+    background-color: #24c1ff;
+    // background-image: -webkit-gradient(linear,0 0,100% 100%,color-stop(.25,#fff),color-stop(.25,transparent),color-stop(.5,transparent),color-stop(.5,#fff),color-stop(.75,#fff),color-stop(.75,transparent),to(transparent));
+    
+}
+
+.header-etalase::after{
+  content: "";
+    height: 15px;
+    flex-grow: 1;
+    background-color: #24c1ff;
+    // background-image: -webkit-gradient(linear,0 0,100% 100%,color-stop(.25,#fff),color-stop(.25,transparent),color-stop(.5,transparent),color-stop(.5,#fff),color-stop(.75,#fff),color-stop(.75,transparent),to(transparent));
+    
+}
+
 
 .team-area{
   padding-top: 5%;
   padding: 60px;
-  background-image: url('img/blue\ background.jpg');
+  background-image: url('../img/bg_blue.jpg');
 }
 .single-team{
   background-color: #000;
@@ -377,7 +423,7 @@ section{
     bottom: 125px;
   }
   .carousel-caption h5 {
-    font-size: 17px;
+    font-size: 24px;
   }
   .carousel-caption a {
     padding: 10px 15px;
