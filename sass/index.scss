@@ -1,10 +1,12 @@
 @import "bootstrap.scss";
 
 
+
 .navbar-navbar-scrooled{
     background-color: #fff !important;
     
 }
+
 
 .navbar-navbar-scrooled .nav-link:hover {
     color: blue !important;
@@ -64,6 +66,15 @@ section{
 
 /* index */
 
+
+.container-index-1{
+  padding: 48px;
+}
+
+#about{
+  padding: 48px;
+}
+
 .talent{
   background-image: url('img/blue\ background.jpg');
   color: #fff;
@@ -82,7 +93,7 @@ section{
   font-size: 20px;
 }
 
-@media only screen and (max-width: 450px){
+@media only screen and (max-width: 567px){
 
   body{
     width: fit-content;
@@ -96,13 +107,14 @@ section{
   .carousel-item :active{
     width: fit-content
   }
-  .about{
-    width: 65%;
+  #about{
+    padding: 0;
   }
 
   .about-text{
     align-items: center;
-    width: 120px;
+    width: 100%;
+    padding: 24px;
   }
 }
 
@@ -168,6 +180,10 @@ section{
 
 /* Talent CSS */
 
+.container-content-vtuber{
+  padding: 48;
+}
+
 .form-vtuber{
   padding: 100px;
 }
@@ -216,6 +232,17 @@ social-link {
 
 
 /* Merchendise */
+
+.container-product-merchendise{
+  padding: 48px;
+}
+
+.container-merchendise{
+  padding: 48px;
+}
+.container-with-tag{
+  padding: 48px;
+}
 
 body{
   background-image: url(../img/fixed_bg.jpg);
@@ -408,8 +435,56 @@ body{
 
 
 /* Footer */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 576px) {
    
+
+  .container-content-vtuber{
+    padding: 16px;
+  }
+  .team-area{
+    padding: 0;
+  }
+  .figure-bebas-holoid{
+    padding: 24px;
+    
+  }
+  .container-index-1{
+    padding: 0;
+  }
+  .main-merchendise{
+    margin: 0;
+  }
+
+
+  .container-product-merchendise{
+    padding: 0;
+  }
+  .container-merchendise{
+    padding: 0;
+  }
+
+  .container-with-tag{
+    padding: 0;
+  }
+
+  .main-vtuber{
+    margin-top: 136px;
+  }
+  body {
+    width: 100%;
+  }
+
+  .form-vtuber{
+    padding: 0;
+  }
+
+  .right{
+    padding: 0;
+  }
+
+  .title-vtuber p{
+    width: 100%;
+  }
   
   .img-pituber{
     align-items: center;
@@ -419,9 +494,7 @@ body{
   .navbar-nav {
     text-align: center;
   }
-  .carousel-caption {
-    bottom: 125px;
-  }
+  
   .carousel-caption h5 {
     font-size: 24px;
   }
